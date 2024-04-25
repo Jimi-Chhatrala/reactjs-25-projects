@@ -1,3 +1,17 @@
+# ReactJS 25 Projects [[See Live]](https://jimi-chhatrala.github.io/reactjs-25-projects/)
+
+1. [Accordian]()
+2. [Random Color Generator]()
+3. [Star Rating]()
+
+#
+
+#
+
+#
+
+#
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
