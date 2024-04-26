@@ -6,7 +6,7 @@ const Links = () => {
   const dataList = data.map((element) => {
     return (
       <li>
-        <Link className="Link" to={"/reactjs-25-projects/" + element.link}>
+        <Link className="Link" to={"/" + element.link}>
           {element.label}
         </Link>
       </li>

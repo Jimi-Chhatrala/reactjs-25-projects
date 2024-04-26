@@ -17,22 +17,16 @@ function App() {
         <Routes>
           <Route path="/" element={<Links />}>
             {/* Accordian Component */}
-            <Route
-              path="reactjs-25-projects/accordian"
-              element={<Accordian />}
-            />
+            <Route path="accordian" element={<Accordian />} />
 
             {/* Random Color Component */}
             <Route
-              path="reactjs-25-projects/random-color-generator"
+              path="random-color-generator"
               element={<RandomColorGenerator />}
             />
 
             {/* Star Rating Component */}
-            <Route
-              path="reactjs-25-projects/star-rating"
-              element={<StarRating noOfStars={10} />}
-            />
+            <Route path="star-rating" element={<StarRating noOfStars={10} />} />
 
             {/* Page Not Found */}
             <Route path="*" element={<NoPage />} />
