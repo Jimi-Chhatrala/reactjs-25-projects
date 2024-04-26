@@ -9,6 +9,7 @@ import StarRating from "./components/star-rating";
 import NoPage from "./components/no-page";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ReactJS25Projects from "./components/reactjs-25-projects";
 
 function App() {
   return (
@@ -17,16 +18,28 @@ function App() {
         <Routes>
           <Route path="/" element={<Links />}>
             {/* Accordian Component */}
-            <Route path="accordian" element={<Accordian />} />
+            <Route
+              path="reactjs-25-projects/accordian"
+              element={<Accordian />}
+            />
 
             {/* Random Color Component */}
             <Route
-              path="random-color-generator"
+              path="reactjs-25-projects/random-color-generator"
               element={<RandomColorGenerator />}
             />
 
             {/* Star Rating Component */}
-            <Route path="star-rating" element={<StarRating noOfStars={10} />} />
+            <Route
+              path="reactjs-25-projects/star-rating"
+              element={<StarRating noOfStars={10} />}
+            />
+
+            {/* Home Page */}
+            <Route
+              path="reactjs-25-projects/"
+              element={<ReactJS25Projects />}
+            />
 
             {/* Page Not Found */}
             <Route path="*" element={<NoPage />} />
