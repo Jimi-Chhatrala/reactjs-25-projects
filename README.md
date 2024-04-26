@@ -1,8 +1,8 @@
 # ReactJS 25 Projects [[See Live]](https://jimi-chhatrala.github.io/reactjs-25-projects/)
 
-1. [Accordian]()
-2. [Random Color Generator]()
-3. [Star Rating]()
+1. [Accordian](https://jimi-chhatrala.github.io/accordian)
+2. [Random Color Generator](https://jimi-chhatrala.github.io/random-color-generator)
+3. [Star Rating](https://jimi-chhatrala.github.io/star-rating)
 
 #
 

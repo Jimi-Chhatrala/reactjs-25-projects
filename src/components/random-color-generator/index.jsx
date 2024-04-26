@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function RandomColor() {
+export default function RandomColorGenerator() {
   const [typeOfColor, setTypeOfColor] = useState("hex");
   const [color, setColor] = useState("#000000");
 
