@@ -5,7 +5,7 @@ import data from "./data";
 const Links = () => {
   const dataList = data.map((element) => {
     return (
-      <li>
+      <li key={element.id}>
         <Link className="Link" to={"/reactjs-25-projects/" + element.link}>
           {element.label}
         </Link>

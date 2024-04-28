@@ -10,6 +10,7 @@ import NoPage from "./components/no-page";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactJS25Projects from "./components/reactjs-25-projects";
+import ImageSlider from "./components/image-slider";
 
 function App() {
   return (
@@ -43,6 +44,18 @@ function App() {
 
             {/* Page Not Found */}
             <Route path="*" element={<NoPage />} />
+
+            {/* Image slider */}
+            <Route
+              path="reactjs-25-projects/image-slider"
+              element={
+                <ImageSlider
+                  url={"https://picsum.photos/v2/list"}
+                  page={"1"}
+                  limit={"10"}
+                />
+              }
+            />
           </Route>
         </Routes>
       </BrowserRouter>

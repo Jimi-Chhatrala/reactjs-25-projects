@@ -14,6 +14,11 @@ const data = [
     link: "star-rating",
     label: "Star Rating",
   },
+  {
+    id: "4",
+    link: "image-slider",
+    label: "Image Slider",
+  },
 ];
 
 export default data;
