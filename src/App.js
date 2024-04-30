@@ -11,6 +11,7 @@ import NoPage from "./components/no-page";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactJS25Projects from "./components/reactjs-25-projects";
 import ImageSlider from "./components/image-slider";
+import LoadMoreData from "./components/load-more-data";
 
 function App() {
   return (
@@ -55,6 +56,12 @@ function App() {
                   limit={"10"}
                 />
               }
+            />
+
+            {/* Load More Data */}
+            <Route
+              path="reactjs-25-projects/load-more-data"
+              element={<LoadMoreData />}
             />
           </Route>
         </Routes>

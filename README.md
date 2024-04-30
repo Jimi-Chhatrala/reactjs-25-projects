@@ -4,6 +4,7 @@
 2. [Random Color Generator]()
 3. [Star Rating]()
 4. [Image Slider]()
+5. [Load More Data]()
 
 #
 

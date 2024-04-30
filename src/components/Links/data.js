@@ -19,6 +19,11 @@ const data = [
     link: "image-slider",
     label: "Image Slider",
   },
+  {
+    id: "5",
+    link: "load-more-data",
+    label: "Load More Data",
+  },
 ];
 
 export default data;
