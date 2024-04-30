@@ -24,6 +24,11 @@ const data = [
     link: "load-more-data",
     label: "Load More Data",
   },
+  {
+    id: "6",
+    link: "tree-view",
+    label: "Tree View",
+  },
 ];
 
 export default data;

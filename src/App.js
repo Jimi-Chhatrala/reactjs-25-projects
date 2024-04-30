@@ -12,6 +12,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactJS25Projects from "./components/reactjs-25-projects";
 import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 
 function App() {
   return (
@@ -62,6 +64,12 @@ function App() {
             <Route
               path="reactjs-25-projects/load-more-data"
               element={<LoadMoreData />}
+            />
+
+            {/* Tree view component / menu UI component / recursive navigation menu */}
+            <Route
+              path="reactjs-25-projects/tree-view"
+              element={<TreeView menus={menus} />}
             />
           </Route>
         </Routes>
