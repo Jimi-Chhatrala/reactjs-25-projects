@@ -15,6 +15,7 @@ import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
+import LightDarkMode from "./components/light-dark-mode";
 
 function App() {
   return (
@@ -72,10 +73,17 @@ function App() {
               path="reactjs-25-projects/tree-view"
               element={<TreeView menus={menus} />}
             />
+
             {/* QR Code Generator */}
             <Route
               path="reactjs-25-projects/qr-code-generator"
               element={<QRCodeGenerator />}
+            />
+
+            {/* Light Dark Mode */}
+            <Route
+              path="reactjs-25-projects/light-dark-mode"
+              element={<LightDarkMode />}
             />
           </Route>
         </Routes>

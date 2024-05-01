@@ -34,6 +34,11 @@ const data = [
     link: "qr-code-generator",
     label: "QR Code Generator",
   },
+  {
+    id: "8",
+    link: "light-dark-mode",
+    label: "Light Dark Mode",
+  },
 ];
 
 export default data;

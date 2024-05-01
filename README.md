@@ -7,6 +7,7 @@
 5. [Load More Data]()
 6. [Tree View]()
 7. [QR Code Generator]()
+8. [Light Dark Mode]()
 
 #
 
