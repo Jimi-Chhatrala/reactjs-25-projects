@@ -14,6 +14,7 @@ import ImageSlider from "./components/image-slider";
 import LoadMoreData from "./components/load-more-data";
 import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
+import QRCodeGenerator from "./components/qr-code-generator";
 
 function App() {
   return (
@@ -70,6 +71,11 @@ function App() {
             <Route
               path="reactjs-25-projects/tree-view"
               element={<TreeView menus={menus} />}
+            />
+            {/* QR Code Generator */}
+            <Route
+              path="reactjs-25-projects/qr-code-generator"
+              element={<QRCodeGenerator />}
             />
           </Route>
         </Routes>

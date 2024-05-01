@@ -6,7 +6,7 @@
 4. [Image Slider]()
 5. [Load More Data]()
 6. [Tree View]()
-   s
+7. [QR Code Generator]()
 
 #
 

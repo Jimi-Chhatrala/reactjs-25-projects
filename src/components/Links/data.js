@@ -29,6 +29,11 @@ const data = [
     link: "tree-view",
     label: "Tree View",
   },
+  {
+    id: "7",
+    link: "qr-code-generator",
+    label: "QR Code Generator",
+  },
 ];
 
 export default data;
