@@ -3,6 +3,7 @@ nav ul li {
 }
 
 nav ul li .Link {
+  display: inline-block;
   text-decoration: none;
   padding: 10px;
   background-color: #61dafb;
