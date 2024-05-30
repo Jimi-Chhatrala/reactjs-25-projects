@@ -16,6 +16,7 @@ import TreeView from "./components/tree-view";
 import menus from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
 
 function App() {
   return (
@@ -84,6 +85,16 @@ function App() {
             <Route
               path="reactjs-25-projects/light-dark-mode"
               element={<LightDarkMode />}
+            />
+
+            {/* Scroll Indicator Component */}
+            <Route
+              path="reactjs-25-projects/scroll-indicator"
+              element={
+                <ScrollIndicator
+                  url={"https://dummyjson.com/products?limit=100"}
+                />
+              }
             />
           </Route>
         </Routes>

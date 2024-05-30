@@ -39,6 +39,11 @@ const data = [
     link: "light-dark-mode",
     label: "Light Dark Mode",
   },
+  {
+    id: "9",
+    link: "scroll-indicator",
+    label: "Scroll Indicator",
+  },
 ];
 
 export default data;
