@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import styles from "./tabs.module.css";
+
 export default function Tabs({ tabsContent, onChange }) {
   const [currentTabIndex, setCurrentTabIndex] = useState(0);
 
@@ -9,11 +11,13 @@ export default function Tabs({ tabsContent, onChange }) {
   }
 
   return (
-    <div className="wrapper">
-      <div className="heading">
+    <div className={styles.wrapper}>
+      <div className={styles.heading}>
         {tabsContent.map((tabItem, index) => (
           <div
-            className={`tab-item ${currentTabIndex === index ? "active" : ""}`}
+            className={`${styles.tab_item} ${
+              currentTabIndex === index ? styles.active : ""
+            }`}
             onClick={() => handleOnClick(index)}
             key={tabItem.label}
           >
@@ -21,7 +25,7 @@ export default function Tabs({ tabsContent, onChange }) {
           </div>
         ))}
       </div>
-      <div className="content" style={{ color: "red" }}>
+      <div className={styles.content} style={{ color: "red" }}>
         {tabsContent[currentTabIndex] && tabsContent[currentTabIndex].content}
       </div>
     </div>
