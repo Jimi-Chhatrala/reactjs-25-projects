@@ -44,6 +44,11 @@ const data = [
     link: "scroll-indicator",
     label: "Scroll Indicator",
   },
+  {
+    id: "10",
+    link: "custom-tabs-component",
+    label: "Custom Tabs Component",
+  },
 ];
 
 export default data;

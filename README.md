@@ -8,6 +8,8 @@
 6. [Tree View]()
 7. [QR Code Generator]()
 8. [Light Dark Mode]()
+9. [Scroll Indicator]()
+10. [Custom Tabs Component]()
 
 #
 
