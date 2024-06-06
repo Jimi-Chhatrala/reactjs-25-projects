@@ -49,6 +49,11 @@ const data = [
     link: "custom-tabs-component",
     label: "Custom Tabs Component",
   },
+  {
+    id: "11",
+    link: "custom-modal-popup",
+    label: "Custom Modal Popup",
+  },
 ];
 
 export default data;

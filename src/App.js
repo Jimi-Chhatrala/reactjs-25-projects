@@ -18,6 +18,7 @@ import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
+import ModalTest from "./components/custom-modal-popup/modal-test";
 
 function App() {
   return (
@@ -102,6 +103,12 @@ function App() {
             <Route
               path="reactjs-25-projects/custom-tabs-component"
               element={<TabTest />}
+            />
+
+            {/* Custom Modal Component */}
+            <Route
+              path="reactjs-25-projects/custom-modal-popup"
+              element={<ModalTest />}
             />
           </Route>
         </Routes>
