@@ -54,6 +54,11 @@ const data = [
     link: "custom-modal-popup",
     label: "Custom Modal Popup",
   },
+  {
+    id: "12",
+    link: "github-profile-finder",
+    label: "Github Profile Finder",
+  },
 ];
 
 export default data;

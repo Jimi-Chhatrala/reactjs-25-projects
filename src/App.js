@@ -19,6 +19,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
 
 function App() {
   return (
@@ -109,6 +110,12 @@ function App() {
             <Route
               path="reactjs-25-projects/custom-modal-popup"
               element={<ModalTest />}
+            />
+
+            {/* Github Profile Finder */}
+            <Route
+              path="reactjs-25-projects/github-profile-finder"
+              element={<GithubProfileFinder />}
             />
           </Route>
         </Routes>
