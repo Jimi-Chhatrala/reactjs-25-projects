@@ -59,6 +59,11 @@ const data = [
     link: "github-profile-finder",
     label: "Github Profile Finder",
   },
+  {
+    id: "13",
+    link: "search-autocomplete-with-api",
+    label: "Search Autocomplete With API",
+  },
 ];
 
 export default data;

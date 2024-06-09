@@ -20,6 +20,7 @@ import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
+import SearchAutoComplete from "./components/search-autocomplete-with-api";
 
 function App() {
   return (
@@ -116,6 +117,12 @@ function App() {
             <Route
               path="reactjs-25-projects/github-profile-finder"
               element={<GithubProfileFinder />}
+            />
+
+            {/* Search Autocomplete With API */}
+            <Route
+              path="reactjs-25-projects/search-autocomplete-with-api"
+              element={<SearchAutoComplete />}
             />
           </Route>
         </Routes>
