@@ -64,6 +64,11 @@ const data = [
     link: "search-autocomplete-with-api",
     label: "Search Autocomplete With API",
   },
+  {
+    id: "14",
+    link: "tic-tac-toe",
+    label: "Tic Tac Toe",
+  },
 ];
 
 export default data;

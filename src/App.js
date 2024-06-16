@@ -21,6 +21,7 @@ import TabTest from "./components/custom-tabs/tab-test";
 import ModalTest from "./components/custom-modal-popup/modal-test";
 import GithubProfileFinder from "./components/github-profile-finder";
 import SearchAutoComplete from "./components/search-autocomplete-with-api";
+import TicTacToe from "./components/tic-tac-toe";
 
 function App() {
   return (
@@ -123,6 +124,12 @@ function App() {
             <Route
               path="reactjs-25-projects/search-autocomplete-with-api"
               element={<SearchAutoComplete />}
+            />
+
+            {/* Tic Tac Toe */}
+            <Route
+              path="reactjs-25-projects/tic-tac-toe"
+              element={<TicTacToe />}
             />
           </Route>
         </Routes>
