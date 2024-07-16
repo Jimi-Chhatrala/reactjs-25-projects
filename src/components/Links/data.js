@@ -69,6 +69,11 @@ const data = [
     link: "tic-tac-toe",
     label: "Tic Tac Toe",
   },
+  {
+    id: "15",
+    link: "feature-flag",
+    label: "Feature Flag",
+  },
 ];
 
 export default data;
