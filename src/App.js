@@ -28,6 +28,7 @@ import UseFetchHookTest from "./components/use-fetch/test";
 import UseOnclickOutsideTest from "./components/use-outside-click/test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
 import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+import ScrollToParticularSection from "./components/scroll-to-particular-section";
 
 function App() {
   return (
@@ -165,10 +166,16 @@ function App() {
                 element={<UseWindowResizeTest />}
               />
 
-              {/* Scroll To Top And Bottom - Custom Hook */}
+              {/* Scroll To Top And Bottom */}
               <Route
                 path="reactjs-25-projects/scroll-to-top-and-bottom"
                 element={<ScrollToTopAndBottom />}
+              />
+
+              {/* Scroll To Particular Section */}
+              <Route
+                path="reactjs-25-projects/scroll-to-particular-section"
+                element={<ScrollToParticularSection />}
               />
             </Route>
           </Routes>

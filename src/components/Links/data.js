@@ -94,6 +94,11 @@ const data = [
     link: "scroll-to-top-and-bottom",
     label: "Scroll To Top And Bottom",
   },
+  {
+    id: "20",
+    link: "scroll-to-particular-section",
+    label: "Scroll To Particular Section",
+  },
 ];
 
 export default data;

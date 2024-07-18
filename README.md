@@ -19,5 +19,6 @@
 17. Use Outside Click Custom Hook
 18. Use Window Resize Custom Hook
 19. Scroll To Top And Bottom
+20. Scroll To Particular Section
 
 #
