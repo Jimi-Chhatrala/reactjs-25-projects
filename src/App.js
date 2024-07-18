@@ -27,6 +27,7 @@ import FeatureFlags from "./components/feature-flag";
 import UseFetchHookTest from "./components/use-fetch/test";
 import UseOnclickOutsideTest from "./components/use-outside-click/test";
 import UseWindowResizeTest from "./components/use-window-resize/test";
+import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
 
 function App() {
   return (
@@ -162,6 +163,12 @@ function App() {
               <Route
                 path="reactjs-25-projects/use-window-resize"
                 element={<UseWindowResizeTest />}
+              />
+
+              {/* Scroll To Top And Bottom - Custom Hook */}
+              <Route
+                path="reactjs-25-projects/scroll-to-top-and-bottom"
+                element={<ScrollToTopAndBottom />}
               />
             </Route>
           </Routes>

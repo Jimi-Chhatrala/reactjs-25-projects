@@ -89,6 +89,11 @@ const data = [
     link: "use-window-resize",
     label: "Use Window Resize",
   },
+  {
+    id: "19",
+    link: "scroll-to-top-and-bottom",
+    label: "Scroll To Top And Bottom",
+  },
 ];
 
 export default data;
