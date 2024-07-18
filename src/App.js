@@ -24,6 +24,7 @@ import SearchAutoComplete from "./components/search-autocomplete-with-api";
 import TicTacToe from "./components/tic-tac-toe";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag";
+import UseFetchHookTest from "./components/use-fetch/test";
 
 function App() {
   return (
@@ -144,6 +145,10 @@ function App() {
               />
 
               {/* useFetch - Custom Hook */}
+              <Route
+                path="reactjs-25-projects/use-fetch"
+                element={<UseFetchHookTest />}
+              />
             </Route>
           </Routes>
           {/* Feature Flag Implementation */}

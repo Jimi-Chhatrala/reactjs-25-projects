@@ -74,6 +74,11 @@ const data = [
     link: "feature-flag",
     label: "Feature Flag",
   },
+  {
+    id: "16",
+    link: "use-fetch",
+    label: "Use Fetch",
+  },
 ];
 
 export default data;
