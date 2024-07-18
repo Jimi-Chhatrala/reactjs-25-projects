@@ -25,6 +25,7 @@ import TicTacToe from "./components/tic-tac-toe";
 import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag";
 import UseFetchHookTest from "./components/use-fetch/test";
+import UseOnclickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -148,6 +149,12 @@ function App() {
               <Route
                 path="reactjs-25-projects/use-fetch"
                 element={<UseFetchHookTest />}
+              />
+
+              {/* Use Onclick Outside Hook - Custom Hook */}
+              <Route
+                path="reactjs-25-projects/use-onclick-outside"
+                element={<UseOnclickOutsideTest />}
               />
             </Route>
           </Routes>

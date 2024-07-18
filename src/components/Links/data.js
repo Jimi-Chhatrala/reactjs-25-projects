@@ -79,6 +79,11 @@ const data = [
     link: "use-fetch",
     label: "Use Fetch",
   },
+  {
+    id: "17",
+    link: "use-onclick-outside",
+    label: "Use Onclick Outside",
+  },
 ];
 
 export default data;
