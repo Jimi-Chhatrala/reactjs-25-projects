@@ -84,6 +84,11 @@ const data = [
     link: "use-onclick-outside",
     label: "Use Onclick Outside",
   },
+  {
+    id: "18",
+    link: "use-window-resize",
+    label: "Use Window Resize",
+  },
 ];
 
 export default data;

@@ -17,5 +17,6 @@
 15. Feature Flag
 16. Use Fetch Custom Hook
 17. Use Outside Click Custom Hook
+18. Use Window Resize Custom Hook
 
 #

@@ -26,6 +26,7 @@ import FeatureFlagGlobalState from "./components/feature-flag/context";
 import FeatureFlags from "./components/feature-flag";
 import UseFetchHookTest from "./components/use-fetch/test";
 import UseOnclickOutsideTest from "./components/use-outside-click/test";
+import UseWindowResizeTest from "./components/use-window-resize/test";
 
 function App() {
   return (
@@ -155,6 +156,12 @@ function App() {
               <Route
                 path="reactjs-25-projects/use-onclick-outside"
                 element={<UseOnclickOutsideTest />}
+              />
+
+              {/* Use Window Resize Hook - Custom Hook */}
+              <Route
+                path="reactjs-25-projects/use-window-resize"
+                element={<UseWindowResizeTest />}
               />
             </Route>
           </Routes>
